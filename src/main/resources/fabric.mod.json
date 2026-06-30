@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "skin64beta",
+  "version": "1.0.0",
+
+  "name": "Skin64Beta",
+  "description": "Teaches Beta 1.7.3 to natively render modern 64x64 double-layer player skins, adding real second-layer geometry (jacket, sleeves, pant legs) that doesn't otherwise exist in this version of the game. 64x64 skins only — anything else falls back to vanilla Steve.",
+  "authors": [
+    "LucyBeyondMe"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/LucyBeyondMe",
+    "sources": "https://github.com/LucyBeyondMe/Skin64Beta"
+  },
+
+  "license": "MIT",
+  "icon": "assets/skin64beta/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "skin64beta.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}

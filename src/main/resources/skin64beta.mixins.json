@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.lucybeyondme.skin64beta.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "server": [
+  ],
+  "client": [
+    "MinecraftAppletMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
